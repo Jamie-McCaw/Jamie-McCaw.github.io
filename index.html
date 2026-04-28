@@ -1,81 +1,224 @@
 ---
 layout: default
-title: Jamie McCaw | Developer
+title: Jamie McCaw | Senior Software Engineer & Co-Founder
+description: Senior Software Engineer & Co-Founder | Building technology and developing people.
 ---
-<section>
-    <ul id="gallery">
-        <li class="project-list">
-            <a href="text-editor.html" target="_blank">
-                <div class="image-holder">
-                    <img src="/assets/images/word-cleaner-screen-shot.png" alt="Screen Shot of Word-HTML Cleaner">
-                    <div class="lang-container">
-                        <ul class="languages">
-                            <li>Javascript</li>
-                            <li>Bootstrap</li>
-                            <li>Tiny MCE</li>
-                        </ul>
-                    </div>
-                    <div class="project-description-container">
-                        <h3 class="project-title">Word/HTML Cleaner</h3>
-                        <p class="project-description">A RTF to HTML Converter/Cleaner using Tiny MCE.</p>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li class="project-list">
-            <a href="https://github.com/David-Hatcher/Tamagotchi" target="_blank">
-                <div class="image-holder">
-                    <img src="/assets/images/tamagotchi-screen-shot.png" alt="Screenshot of Tamagotchi App">
-                    <div class="lang-container">
-                        <ul class="languages">
-                            <li>C#</li>
-                            <li>SQL</li>
-                            <li>TDD</li>
-                        </ul>
-                    </div>
-                    <div class="project-description-container">
-                        <h3 class="project-title">Command Line Tamagotchi</h3>
-                        <p class="project-description">TDD Tamagotchi Console app written in C# pair programmed with David Hatcher</p>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li class="project-list">
-            <a href="https://treeter.herokuapp.com/" target="_blank">
-                <div class="image-holder">
-                    <img src="/assets/images/treeter-screen-shot.png" alt="Screenshot of Treeter">
-                    <div class="lang-container">
-                        <ul class="languages">
-                            <li>Ruby</li>
-                            <li>RoR</li>
-                            <li>Bootstrap</li>
-                        </ul>
-                    </div>
-                    <div class="project-description-container">
-                        <h3 class="project-title">Tweeter</h3>
-                        <p class="project-description">Twitter/Facebook style status posting to a board.</p>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li class="project-list">
-            <a href="https://rail-tic-tac-toe.herokuapp.com/" target="_blank">
-                <div class="image-holder">
-                    <img src="/assets/images/unbeatable-tic-tac-toe-in-ruby-screen-shot.png" alt="Screenshot from Rails TicTacToe App">
-                    <div class="lang-container">
-                        <ul class="languages">
-                            <li>Ruby</li>
-                            <li>RoR</li>
-                            <li>RSpec</li>
-                        </ul>
-                    </div>
-                    <div class="project-description-container">
-                        <h3 class="project-title">Unbeatable Tic Tac Toe</h3>
-                        <p class="project-description">Single player vs. AI, or 2 player remote.</p>
-                    </div>
-                </div>
-            </a>
-        </li>
 
-    </ul>
-</section>
+<!-- Ambient glow orbs -->
+<div class="glow-orb glow-orb-cyan" aria-hidden="true"></div>
+<div class="glow-orb glow-orb-amber" aria-hidden="true"></div>
+
+<div class="site-container">
+
+  <!-- ═══════════════════════════════
+       HERO
+  ═══════════════════════════════ -->
+  <section id="hero" aria-label="Introduction">
+    <div class="hero-vline" aria-hidden="true"></div>
+
+    <p class="hero-eyebrow">Senior Engineer &amp; Co-Founder</p>
+
+    <h1 class="hero-name">
+      <span class="line-cyan">JAMIE</span>
+      <span class="line-amber">McCAW</span>
+    </h1>
+
+    <p class="hero-tagline">Building technology and developing people.</p>
+
+    <p class="hero-bio">
+      <span class="accent-cyan">Full-stack technical lead at Malwarebytes</span> —
+      distributed systems, AI integrations, and cross-team architecture.
+      <span class="accent-amber">Co-founder &amp; CTO of Ignite Leadership</span> —
+      developing leaders across education, faith, and community sectors in Colorado Springs.
+    </p>
+
+    <div class="cta-group">
+      <a href="#work" class="btn-primary">View My Work</a>
+      <a href="https://linkedin.com/in/jamiemccaw" class="btn-secondary" target="_blank" rel="noopener">Connect on LinkedIn</a>
+    </div>
+
+    <p class="hero-scroll-hint" aria-hidden="true">Scroll to explore</p>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════════
+       WORK
+  ═══════════════════════════════ -->
+  <section id="work" aria-label="Selected Work">
+    <div class="section-header">
+      <span class="section-label">01 · Selected Work</span>
+      <div class="section-line" aria-hidden="true"></div>
+    </div>
+
+    <div class="projects-grid">
+      <div class="grid-corner tl" aria-hidden="true"></div>
+      <div class="grid-corner tr" aria-hidden="true"></div>
+      <div class="grid-corner bl" aria-hidden="true"></div>
+      <div class="grid-corner br" aria-hidden="true"></div>
+
+      <!-- IRIS — non-clickable div, internal/proprietary -->
+      <div class="project-card">
+        <p class="project-num">01 · Internal</p>
+        <span class="project-badge">Internal &middot; Proprietary</span>
+        <h3 class="project-name">IRIS Notification System</h3>
+        <p class="project-desc">
+          Full-stack technical lead on IRIS, Malwarebytes' distributed client notification system.
+          Customers interact with it on every notification they receive — they never see it directly.
+          Built on Ruby on Rails, Grape API, Redis/Sidekiq, React, and Golang on AWS.
+        </p>
+      </div>
+
+      <!-- Threat Town -->
+      <a class="project-card" href="https://www.malwarebytes.com/threat-town" target="_blank" rel="noopener">
+        <p class="project-num">02 · Hackathon · 1st Place</p>
+        <span class="project-badge">2023 Winner</span>
+        <h3 class="project-name">Threat Town</h3>
+        <p class="project-desc">
+          8-bit educational cybersecurity game built in 5 days at Malwarebytes 2023 Hackathon.
+          First place out of the full company.
+        </p>
+        <span class="project-link">Play Now &rarr;</span>
+      </a>
+
+      <!-- Variant Zero -->
+      <a class="project-card" href="https://www.malwarebytes.com/variant-zero" target="_blank" rel="noopener">
+        <p class="project-num">03 · Hackathon · Award-Winning</p>
+        <span class="project-badge">2024 Award</span>
+        <h3 class="project-name">Variant Zero</h3>
+        <p class="project-desc">
+          Award-winning entry at Malwarebytes 2024 Hackathon.
+          Built under tight constraints with a full team in days.
+        </p>
+        <span class="project-link">Play Now &rarr;</span>
+      </a>
+
+      <!-- Byte Wars -->
+      <a class="project-card" href="https://malwarebytesgames.itch.io/" target="_blank" rel="noopener">
+        <p class="project-num">04 · Hackathon · 2025</p>
+        <span class="project-badge">Hackathon</span>
+        <h3 class="project-name">Byte Wars: Zero Day</h3>
+        <p class="project-desc">
+          Survivor-style action game developed at Malwarebytes 2025 Hackathon.
+          Fast-paced and fully playable.
+        </p>
+        <span class="project-link">Play on itch.io &rarr;</span>
+      </a>
+
+      <!-- Malware Crusher -->
+      <a class="project-card" href="https://malwarebytesgames.itch.io/" target="_blank" rel="noopener">
+        <p class="project-num">05 · Hackathon · Dec 2025</p>
+        <span class="project-badge">Hackathon</span>
+        <h3 class="project-name">Malware Crusher</h3>
+        <p class="project-desc">
+          Wave-defense game built at Malwarebytes December 2025 Hackathon.
+          Defend the network, crush the threats.
+        </p>
+        <span class="project-link">Play on itch.io &rarr;</span>
+      </a>
+
+      <!-- Ignite Leadership Portal — amber accent -->
+      <a class="project-card amber-accent" href="https://igniteleadershipco.com" target="_blank" rel="noopener">
+        <p class="project-num">06 · Co-Founded · CTO</p>
+        <span class="project-badge">Ignite Leadership</span>
+        <h3 class="project-name">Ignite Leadership Portal</h3>
+        <p class="project-desc">
+          Co-founded and built as CTO. AI-assisted leadership development platform
+          serving education, faith, and community sectors.
+        </p>
+        <span class="project-link">Visit Site &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       SKILLS
+  ═══════════════════════════════ -->
+  <section id="skills" aria-label="Tech Stack">
+    <p class="skills-label">Tech Stack</p>
+    <div class="skills-row">
+      <span class="skill-tag">Ruby on Rails</span>
+      <span class="skill-tag">React</span>
+      <span class="skill-tag">Golang</span>
+      <span class="skill-tag">TypeScript</span>
+      <span class="skill-tag">GraphQL</span>
+      <span class="skill-tag">Redis</span>
+      <span class="skill-tag">AWS</span>
+      <span class="skill-tag">Node.js</span>
+      <span class="skill-tag ai">Claude AI</span>
+      <span class="skill-tag ai">GitHub Copilot</span>
+      <span class="skill-tag ai">Cursor</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       ABOUT
+  ═══════════════════════════════ -->
+  <section id="about" aria-label="About Jamie McCaw">
+    <div class="section-header">
+      <span class="section-label">02 · About</span>
+      <div class="section-line" aria-hidden="true"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <img
+          src="/assets/images/jamie-mccaw-prof.jpg"
+          alt="Jamie McCaw — Senior Software Engineer and Co-Founder"
+          class="about-photo"
+          width="240"
+          height="240"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="about-content">
+        <blockquote class="about-quote">
+          "The best technologists are also builders of people."
+        </blockquote>
+
+        <p class="about-body">
+          By day, I'm a <span class="accent-cyan">Senior Software Engineer at Malwarebytes</span> —
+          full-stack technical lead on distributed systems, AI integrations, and cross-team architecture.
+        </p>
+
+        <p class="about-body">
+          Outside of work, I co-founded <span class="accent-amber">Ignite Leadership</span> as CTO —
+          a Colorado Springs organization developing leaders across education, faith, and community sectors.
+          I built the platform, lead the tech vision, and help grow the people.
+        </p>
+
+        <p class="about-philosophy">
+          "Knowledge without action is just entertainment."
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════════
+       CONNECT
+  ═══════════════════════════════ -->
+  <section id="connect" aria-label="Connect with Jamie">
+    <div class="connect-glow" aria-hidden="true"></div>
+
+    <p class="connect-eyebrow">03 · Let's Connect</p>
+
+    <h2 class="connect-headline">
+      Want to build something<br>
+      or <span class="accent-amber">talk leadership</span>?
+    </h2>
+
+    <p class="connect-sub">
+      Whether it's a technical challenge, a collaboration, or a conversation
+      about developing people — I'd like to hear from you.
+    </p>
+
+    <div class="connect-links">
+      <a href="https://linkedin.com/in/jamiemccaw" class="connect-link primary" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/jamie-mccaw" class="connect-link ghost" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+</div>

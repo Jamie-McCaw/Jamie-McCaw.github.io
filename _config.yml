@@ -1,4 +1,5 @@
 name: Jamie McCaw
+description: Senior Software Engineer & Co-Founder | Building technology and developing people.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 encoding: UTF-8
